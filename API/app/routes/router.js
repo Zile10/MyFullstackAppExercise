@@ -1,10 +1,8 @@
-// No, I did not copy this... Just converted these imports from commonJS to ES6 imports
-// Did this to experiment a bit.
-import userRoutes from './userRoutes';
-import productRoutes from './productRoutes';
-import orderRoutes from './orderRoutes';
+const userRoutes = require('./userRoutes');
+const productRoutes = require('./productRoutes');
+const orderRoutes = require('./orderRoutes');
 
-exports = {
+module.exports = {
   userRoutes,
   productRoutes,
   orderRoutes
